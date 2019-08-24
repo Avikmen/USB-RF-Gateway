@@ -17,5 +17,7 @@
 - No programming probe needed for uploading firmware
 - Tag-Connect for debugging
 - Debugging LED on board
+- USB port ESD protection
 - The NRF24L01 version is perfect for the Gainta G1901 enclosure (if you order a 1 mm thick PCB)
+
 
