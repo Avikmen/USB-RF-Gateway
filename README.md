@@ -1,5 +1,7 @@
 ## USB RF Gateway on NRF24L01 or RFM69
 
+<img width="600" src="https://github.com/Avikmen/USB-RF-Gateway/blob/master/Images/IMG_20190824_114225-01.jpeg" label="NRF24L01 SMD bare version">
+
   This is my mini project on STM32. Many makers use low cost radio transmitters NRF24L01 and RFM69 in their projects. This PCB should facilitate the use of radio modules for use as transmitters in USB devices. Can also be used as a RF-dongle for Raspberry Pi. 
   The basis of the device is the microcontroller STM32F042G6U6 in the case UFQFPN28 4x4 mm (smallest footprint controller enclosure I found on sale). 
   It is possible to download .bin files directly via USB, thanks to the built-in bootloader. For the whole, you’ll need to connect device in USB port on while holding down the “BOOT” button. I used STM32CubeProgrammer to download .bin file. 6-pin SWD Tag-Connect is also available for debugging.
