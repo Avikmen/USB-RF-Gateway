@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## USB RF Gateway on NRF24L01 or RFM69
 
-You can use the [editor on GitHub](https://github.com/Avikmen/USB-RF-Gateway/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+  This is my mini project on STM32. Many makers use low cost radio transmitters NRF24L01 and RFM69 in their projects. This PCB should facilitate the use of radio modules for use as transmitters in USB devices. Can also be used as a RF-dongle for Raspberry Pi. 
+  The basis of the device is the microcontroller STM32F042G6U6 in the case UFQFPN28 4x4 mm (smallest footprint controller enclosure I found on sale). 
+  It is possible to download .bin files directly via USB, thanks to the built-in bootloader. For the whole, you’ll need to connect device in USB port on while holding down the “BOOT” button. I used STM32CubeProgrammer to download .bin file. 6-pin SWD Tag-Connect is also available for debugging.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Features
 
-### Markdown
+- NRF24L01 SMD
+- RFM69 868 or 915 MHz (to minimize antenna size, compared to antenna sizes for 433MHz)
+- No programming probe needed for uploading firmware
+- Tag-Connect for debugging
+- Debugging LED on board
+- The NRF24L01 version is perfect for the Gainta G1901 enclosure (if you order a 1 mm thick PCB)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Avikmen/USB-RF-Gateway/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
