@@ -10,6 +10,12 @@
 
 <img width="400" src="https://github.com/Avikmen/USB-RF-Gateway/blob/master/Images/IMG_20190824_114648-01.jpeg" label="RFM69-868 thermo shrink and bare versions">
 
+You can place the programmed and debugged device in the enclosure of Gainta G1901G or G1901C. I specifically tried to develop this device for such cases, because they are quite cheap and universal.
+
+<img width="400" src="https://github.com/Avikmen/USB-RF-Gateway/blob/master/Images/IMG_20190906_161319-01.jpeg" label="In Gainta G1901C enclosure">
+
+<img width="400" src="https://github.com/Avikmen/USB-RF-Gateway/blob/master/Images/IMG_20190906_161232-01.jpeg" label="In Gainta G1901C enclosure">
+
 ### Features
 
 - NRF24L01 SMD
@@ -18,6 +24,9 @@
 - Tag-Connect for debugging
 - Debugging LED on board
 - USB port ESD protection
-- The NRF24L01 version is perfect for the Gainta G1901 enclosure (if you order a 1 mm thick PCB)
+- The NRF24L01 *(not tested RFM69 version)* version is perfect for the Gainta G1901C or 1901G enclosure (if you use a USB connector for deep PCB landing)
+<img width="400" src="https://github.com/Avikmen/USB-RF-Gateway/blob/master/Images/IMG_20190906_160916-01.jpeg" label="USB connector for deep PCB landing">
+<img width="400" src="https://github.com/Avikmen/USB-RF-Gateway/blob/master/Images/IMG_20190906_161319-01.jpeg" label="In Gainta G1901C enclosure">
+
 
 
