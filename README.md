@@ -27,5 +27,5 @@ You can place the programmed and debugged device in the enclosure of Gainta G190
 - The NRF24L01 *(not tested RFM69 version)* version is perfect for the Gainta G1901C or 1901G enclosure (if you use a USB connector for deep PCB landing)
 <img width="400" src="https://github.com/Avikmen/USB-RF-Gateway/blob/master/Images/IMG_20190906_160916-01.jpeg" label="USB connector for deep PCB landing">
 
-
+<a href="https://www.tindie.com/stores/avikmen/?ref=offsite_badges&utm_source=sellers_Avikmen&utm_medium=badges&utm_campaign=badge_medium"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-mediums.png" alt="I sell on Tindie" width="150" height="78"></a>
 
